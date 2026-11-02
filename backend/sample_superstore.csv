@@ -1,0 +1,51 @@
+order_id,order_date,category,region,ship_mode,sales,quantity,discount,profit
+CA-2024-152156,2024-11-08,Furniture,South,Second Class,261.96,2,0.00,41.91
+CA-2024-152156,2024-11-08,Furniture,South,Second Class,731.94,3,0.00,219.58
+CA-2024-138688,2024-06-12,Office Supplies,West,Second Class,14.62,2,0.00,6.87
+US-2024-108966,2024-10-11,Furniture,South,Standard Class,957.57,5,0.45,-383.03
+US-2024-108966,2024-10-11,Office Supplies,South,Standard Class,22.36,2,0.20,2.51
+CA-2024-115812,2024-06-09,Furniture,West,Standard Class,48.86,7,0.00,14.16
+CA-2024-115812,2024-06-09,Technology,West,Standard Class,907.15,6,0.20,90.71
+CA-2024-115812,2024-06-09,Office Supplies,West,Standard Class,18.50,3,0.00,4.88
+CA-2024-115812,2024-06-09,Office Supplies,West,Standard Class,114.90,5,0.20,34.47
+CA-2024-115812,2024-06-09,Technology,West,Standard Class,1706.18,9,0.20,85.30
+CA-2024-115812,2024-06-09,Furniture,West,Standard Class,911.42,4,0.00,67.79
+CA-2024-115812,2024-06-09,Technology,West,Standard Class,911.42,4,0.20,68.35
+CA-2024-114412,2024-04-15,Office Supplies,South,Standard Class,15.55,3,0.20,4.08
+CA-2024-161389,2024-12-05,Technology,East,Standard Class,407.97,3,0.00,132.59
+US-2024-118983,2024-11-22,Office Supplies,Central,Standard Class,68.81,5,0.80,-123.85
+US-2024-118983,2024-11-22,Furniture,Central,Standard Class,2.54,2,0.80,-3.81
+CA-2024-105893,2024-11-11,Office Supplies,Central,Second Class,9.94,2,0.00,3.87
+CA-2024-167164,2024-05-13,Office Supplies,West,First Class,66.50,2,0.00,19.28
+CA-2024-143336,2024-08-27,Furniture,West,Second Class,8.56,2,0.00,2.48
+CA-2024-143336,2024-08-27,Technology,West,Second Class,213.48,3,0.20,16.01
+CA-2024-143336,2024-08-27,Office Supplies,West,Second Class,17.94,3,0.00,8.07
+CA-2024-137330,2024-12-09,Office Supplies,Central,Standard Class,19.46,7,0.00,9.34
+CA-2024-137330,2024-12-09,Furniture,Central,Standard Class,60.34,7,0.00,15.68
+US-2024-156909,2024-07-16,Furniture,East,Second Class,71.37,2,0.00,20.69
+CA-2024-106320,2024-09-25,Furniture,West,Standard Class,1044.63,3,0.00,240.26
+CA-2024-121755,2024-01-16,Office Supplies,East,Second Class,90.57,3,0.00,11.77
+CA-2024-121755,2024-01-16,Furniture,East,Second Class,11.95,3,0.70,-7.17
+US-2024-150630,2024-09-17,Furniture,Central,Standard Class,3083.43,8,0.50,-1665.05
+US-2024-150630,2024-09-17,Office Supplies,Central,Standard Class,9.61,2,0.70,-6.72
+US-2024-150630,2024-09-17,Technology,Central,Standard Class,124.20,3,0.20,15.52
+CA-2024-107727,2024-10-19,Office Supplies,Central,Second Class,73.72,2,0.20,24.88
+CA-2024-107727,2024-10-19,Technology,Central,Second Class,21.98,1,0.00,6.15
+CA-2024-107727,2024-10-19,Technology,Central,Second Class,329.92,2,0.20,24.74
+CA-2024-117590,2024-12-08,Technology,Central,Standard Class,899.91,3,0.00,386.96
+CA-2024-117590,2024-12-08,Office Supplies,Central,Standard Class,34.58,7,0.80,-53.60
+CA-2024-117590,2024-12-08,Furniture,Central,Standard Class,7.98,2,0.60,-4.79
+CA-2024-117590,2024-12-08,Office Supplies,Central,Standard Class,709.71,6,0.20,-115.32
+CA-2024-117415,2024-12-27,Technology,East,Standard Class,113.57,5,0.00,35.20
+CA-2024-117415,2024-12-27,Office Supplies,East,Standard Class,532.39,3,0.20,106.47
+CA-2024-117415,2024-12-27,Furniture,East,Standard Class,212.05,3,0.20,-15.90
+CA-2024-117415,2024-12-27,Technology,East,Standard Class,371.16,4,0.00,92.79
+CA-2024-110870,2024-12-12,Technology,East,First Class,147.16,4,0.00,33.84
+CA-2024-110870,2024-12-12,Office Supplies,East,First Class,77.88,2,0.00,22.58
+CA-2024-110870,2024-12-12,Furniture,East,First Class,81.42,3,0.00,19.54
+CA-2024-140151,2024-03-23,Technology,West,First Class,64.62,2,0.20,22.61
+CA-2024-140151,2024-03-23,Office Supplies,West,First Class,95.61,2,0.00,44.93
+CA-2024-140151,2024-03-23,Technology,West,First Class,45.98,2,0.00,13.79
+CA-2024-169194,2024-06-20,Technology,East,Standard Class,45.00,3,0.00,4.95
+CA-2024-169194,2024-06-20,Office Supplies,East,Standard Class,21.80,2,0.00,6.10
+CA-2024-169194,2024-06-20,Technology,East,Standard Class,1144.00,5,0.00,331.76
