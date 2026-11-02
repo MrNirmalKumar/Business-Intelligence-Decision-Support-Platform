@@ -19,7 +19,21 @@ const limiter = rateLimit({
 app.use(helmet());
 app.use(compression());
 app.use(morgan('dev'));
-app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
+const allowedOrigins = (process.env.CLIENT_URL || 'http://localhost:5173')
+    .split(',')
+    .map(url => url.trim().replace(/\/+$/, ''));
+
+app.use(cors({
+    origin: (origin, callback) => {
+        if (!origin) return callback(null, true);
+        const cleanOrigin = origin.replace(/\/+$/, '');
+        if (allowedOrigins.includes('*') || allowedOrigins.includes(cleanOrigin)) {
+            return callback(null, true);
+        }
+        return callback(new Error(`CORS policy does not allow access from origin: ${origin}`));
+    },
+    credentials: true
+}));
 app.use(express.json({ limit: '100mb' }));
 app.use(express.urlencoded({ limit: '100mb', extended: true }));
 app.use('/api', limiter); // Apply rate limiter to all API routes
