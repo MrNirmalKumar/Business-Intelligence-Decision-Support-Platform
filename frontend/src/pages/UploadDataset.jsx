@@ -215,17 +215,29 @@ CA-2024-169194,2024-06-20,Technology,East,Standard Class,1144.00,5,0.00,331.76`;
 
                     {/* Progress Bar */}
                     {uploading && (
-                        <div className="mt-6 space-y-2">
-                            <div className="flex justify-between text-xs font-medium text-surface-700">
-                                <span>Uploading & validating records...</span>
-                                <span>{progress}%</span>
+                        <div className="mt-6 space-y-2.5 p-4 rounded-xl bg-surface-50 border border-surface-200">
+                            <div className="flex justify-between items-center text-xs font-semibold text-surface-700">
+                                <span className="flex items-center gap-2">
+                                    <Loader2 className="w-3.5 h-3.5 animate-spin text-primary-600" />
+                                    {progress < 100
+                                        ? 'Uploading dataset to server...'
+                                        : 'Processing ETL, DAX health score & analytics...'}
+                                </span>
+                                <span className="text-primary-700 font-bold">{progress}%</span>
                             </div>
-                            <div className="w-full h-2 rounded-full bg-surface-100 overflow-hidden">
+                            <div className="w-full h-2.5 rounded-full bg-surface-200 overflow-hidden">
                                 <div
-                                    className="h-full bg-primary-600 rounded-full transition-all duration-300"
+                                    className={`h-full rounded-full transition-all duration-300 ${
+                                        progress === 100 ? 'bg-gradient-to-r from-primary-600 via-indigo-500 to-emerald-500 animate-pulse' : 'bg-primary-600'
+                                    }`}
                                     style={{ width: `${progress}%` }}
                                 ></div>
                             </div>
+                            {progress === 100 && (
+                                <p className="text-[11px] text-surface-500 animate-pulse">
+                                    Running automated deduplication, normalization, and KPI calculations...
+                                </p>
+                            )}
                         </div>
                     )}
                 </CardBody>
