@@ -51,9 +51,9 @@ A full-stack, enterprise-grade Business Intelligence & Decision Support Platform
 | Layer | Technology | Responsibilities |
 |---|---|---|
 | **Frontend** | React 19, Vite, Tailwind CSS v4, React Router, Recharts, Lucide React, Axios | Nirmal |
-| **Backend** | Node.js, Express.js, Multer, Zod, Compression, Rate Limiting | Priyanshu |
-| **Database** | MongoDB (Mongoose ODM) | Priyanshu |
-| **Authentication**| JWT (JSON Web Tokens), bcrypt | Priyanshu |
+| **Backend** | Node.js, Express.js, Multer, Zod, Compression, Rate Limiting | Nirmal |
+| **Database** | MongoDB (Mongoose ODM) | Tanishq |
+| **Authentication**| JWT (JSON Web Tokens), bcrypt | Nirmal |
 
 ---
 
